@@ -1,0 +1,128 @@
+body {
+    background-color: #f6f6f6;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 50px auto;
+    max-width: 600px;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  h1 {
+    color: #ff80ab;
+    font-size: 28px;
+    text-align: center;
+  }
+  
+  form {
+    margin-top: 30px;
+  }
+  
+  fieldset {
+    border: none;
+    padding: 0;
+  }
+  
+  label {
+    color: #333;
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  input[type="number"],
+  select {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"]:focus,
+  input[type="email"]:focus,
+  input[type="password"]:focus,
+  input[type="number"]:focus,
+  select:focus {
+    outline: none;
+    border-color: #ff80ab;
+  }
+  
+  input[type="submit"] {
+    background-color: #ff80ab;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 20px;
+    padding: 10px 20px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #ff4081;
+  }
+  
+  .error {
+    color: #ff0000;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  .success {
+    color: #008000;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  .large {
+    width: 100%;
+  }
+  
+  .medium {
+    width: 200px;
+  }
+  
+  .small {
+    width: 100px;
+  }
+  
+  .criar_perfil {
+    background-color: #ff80ab;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 20px;
+    padding: 10px 20px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .criar_perfil:hover {
+    background-color: #ff4081;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    #container {
+      max-width: 100%;
+      margin: 20px;
+    }
+  }
+  
